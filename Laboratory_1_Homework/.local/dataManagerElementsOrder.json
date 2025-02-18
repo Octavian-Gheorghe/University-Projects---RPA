@@ -1,0 +1,80 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "csv_output&Sequence_1",
+        "second_order_equation_results&Sequence_1",
+        "second_order_equation_elements&Sequence_1",
+        "try_again_variable&Sequence_1",
+        "b&Sequence_1",
+        "c&Sequence_1",
+        "a&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MainFlow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "result_of_delta_calcaulation_message&Flowchart_1",
+        "second_order_equation_elements&Flowchart_1",
+        "delta_squareroot&Flowchart_1",
+        "second_order_equation_results&Flowchart_1",
+        "second_order_equation_result&Flowchart_1",
+        "c&Flowchart_1",
+        "b&Flowchart_1",
+        "a&Flowchart_1",
+        "try_again_variable&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Laboratory_2_Delta_Determiner.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "file_input_validity&Sequence_1",
+        "csv_file_input_elements&Sequence_1",
+        "csv_file_input&Sequence_1",
+        "variable1&Sequence_8",
+        "text_file_input_elements&Sequence_1",
+        "text_file_input&Sequence_1",
+        "read_type_selector&Sequence_1",
+        "result&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "c_out",
+        "b_out",
+        "a_out"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Laboratory_2_Second_Order_Eq_Result_Calculator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "second_order_equation_result&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "second_order_equation_results",
+        "second_order_equation_elements"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

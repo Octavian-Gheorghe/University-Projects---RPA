@@ -1,0 +1,26 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Laboratory_3_Second_Order_Eq_Result_Calculator_Activity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "second_order_equation_result&Sequence_1",
+        "delta_squareroot&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "second_order_equation_elements",
+        "second_order_equation_results"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

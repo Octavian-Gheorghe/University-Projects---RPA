@@ -1,0 +1,144 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UsersAndTheirFinalPrefferences&Sequence_1",
+        "email&Sequence_4",
+        "UsersAndTheirPrefferences&Sequence_1",
+        "SpecificsDictionary&Sequence_1",
+        "ConditionsList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_1_read_filtering_conditions.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TEMP_SpecificsList&Sequence_1",
+        "TEMP_SpecificsDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "OUT_SpecificsDictionary",
+        "OUT_ConditionsList"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_1_read_emails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TEMP_potetialPriceText&Sequence_17",
+        "TEMP_ListWithAllSpecificationsFoundForThisCurrentCondition&Sequence_2",
+        "TEMP_hasCounterChangedForThisCondition&Sequence_2",
+        "TEMP_ConditionLowerText&Sequence_2",
+        "TEMP_ListOfMailBodySentences&Sequence_2",
+        "TEMP_SpecificLowerText&Sequence_8",
+        "TEMP_SpecificsListOfTheFoundCondition&Sequence_4",
+        "TEMP_MailBodyOfCurrentUser&Sequence_2",
+        "TEMP_CurrentlyFoundPrefferences&Sequence_5",
+        "mails&Sequence_1",
+        "counter&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IN_SpecificsDictionary",
+        "IN_ConditionsList",
+        "OUT_usersAndTheirPrefferences"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_2_Manage_Users_Conditions.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UsersWithMoreArrangedPrefferencesAndEmail&Sequence_16",
+        "TEMP_AllBrandsWantedByUser&Sequence_1",
+        "TEMP_email&Sequence_2",
+        "TEMP_specifications&Sequence_2",
+        "TEMP_condition&Sequence_2",
+        "TEMP_specification&Sequence_4",
+        "DEEP_COPY_DictionaryToBeAdded&Sequence_17",
+        "TEMP_PrefferencesOnlyOfUser&Sequence_1",
+        "UsersWithMoreArrangedPrefferences&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "UsersAndTheirFinalPrefferences",
+        "IN_UsersAndTheirPrefferences"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_2_Begin_Setting_Filters_On_Emag.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sheet&Sequence_7",
+        "brand&Sequence_4",
+        "EmptyDataTable&Sequence_7",
+        "OutputTable&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "UsersAndTheirFinalPrefferences"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_2_Setting_Up_Emag.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "elemHasBeenToggled&Sequence_1",
+        "TEMP_PathToClassificationCriteria&Sequence_1",
+        "allPossibleSelections&Sequence_1",
+        "TEMP_stringForGoingThroughHtmlElements&Sequence_1",
+        "variable2&Sequence_1",
+        "memory&Sequence_1",
+        "variable1&Sequence_1",
+        "ExtractedData&Sequence_1",
+        "dataTableString&Sequence_1",
+        "productName&Sequence_1",
+        "needsToStop&Sequence_1",
+        "ContainerWithClassificationTitle&Sequence_1",
+        "childrenOfCurrentItem&Sequence_1",
+        "allSelectableElements&Sequence_1",
+        "PretMaxim&Sequence_1",
+        "PretMinim&Sequence_1",
+        "TEMP_modification_string&Sequence_1",
+        "TEMP_regex_digit_matcher_list&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DictionaryWithAllReqruiredElements",
+        "OutputTable",
+        "BrandExists"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FWF_3_Sending_Emails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "temporaryStringExtractedFromDataTable&Sequence_4",
+        "temporaryDataTable&Sequence_3",
+        "StringBuilder&Sequence_2",
+        "emailToSendTo&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
